@@ -31,5 +31,12 @@ namespace Geometric_figuresss
 		{ 
 			return PI*(Math.Pow(radius,2)); 
 		}
+
+        //Method Con Parametros de salida y sin parametros de entrada 
+
+        public double GetCirclePerimeter () 
+		{
+			return 2 * PI * radius;
+		}
 	}
 }

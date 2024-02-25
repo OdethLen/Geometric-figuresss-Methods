@@ -3,7 +3,7 @@
 Figure fig1 = new Figure();
 fig1.Geometricfigure();
 fig1.Name = "Rectangle";
-fig1.Presentation("Rectangle","Red");
+fig1.Presentation("Rectangle", "Red");
 
 Fig2D fig2 = new Fig2D();
 fig2.Geometricfigure();
@@ -19,6 +19,7 @@ circle1.Name = "Circle";
 circle1.Color = "Pink";
 circle1.Presentation("Circle","Pink");
 circle1.Radius = 7.5;
+Console.WriteLine("Perimeter:"+circle1.GetCirclePerimeter());
 Console.WriteLine("Area: " + circle1.GetCircleArea());
 
 Triangle triangle1 = new Triangle();    
