@@ -3,13 +3,11 @@
 Figure fig1 = new Figure();
 fig1.Geometricfigure();
 fig1.Name = "Rectangle";
-//Console.WriteLine(fig1.ToString());
 fig1.Presentation("Rectangle","Red");
 
 Fig2D fig2 = new Fig2D();
 fig2.Geometricfigure();
 fig2.Name = "Square";
-//Console.Write(fig2.ToString());
 fig2.Presentation("Square", "Blue");
 fig2.Length_side = 10;
 fig2.Number_sides = 4;
